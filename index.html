@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Alan Frits | Web Developer & Designer</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      background: #222831;
+      color: #EEEEEE;
+    }
+    .navbar, footer {
+      background: #31363F;
+    }
+    .navbar-nav a {
+      color: #EEEEEE !important;
+    }
+    .navbar-nav a:hover,
+    .navbar-nav a.active {
+      color: #76ABAE !important;
+    }
+    .btn-primary {
+      background: #76ABAE;
+      border: none;
+    }
+    .btn-primary:hover {
+      background: #5D888A;
+    }
+    .profile-img {
+      border: 5px solid #76ABAE;
+      border-radius: 20px;
+    }
+    .hero-section {
+      flex: 1;
+      padding-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="">Alan Frits</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="proyekunggulan.html">Proyek</a></li>
+          <li class="nav-item"><a class="nav-link" href="sertifikat.html">Sertifikat</a></li>
+          <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+          <li class="nav-item"><a class="nav-link" href="artikel.html">Artikel</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="container d-flex align-items-center justify-content-center h-100">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+          <h1 class="display-3 fw-bold">Hallo, Saya Alan Frits</h1>
+          <h2 class="text-info mb-4">Web Developer & Designer</h2>
+          <p class="lead mb-4">Selamat Datang di Web Portofolio Saya</p>
+          <a href="proyekunggulan.html" class="btn btn-primary btn-lg">Karya Saya</a>
+        </div>
+        <div class="col-lg-6 text-center" data-aos="fade-left">
+          <img src="AI.jpg" alt="Alan Frits" class="img-fluid profile-img" width="250" height="500" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 | Landuu. Semua Hak dilindungi diri sendiri.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+</body>
+</html>
